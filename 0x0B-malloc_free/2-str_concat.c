@@ -4,7 +4,8 @@
 /**
  * _strlen - find length of a string
  *  @s: string
- *  return: int
+ *  return: int  _strlen
+ * Return: size  s  _strlen
  */
 
 int _strlen(char *s)
@@ -20,6 +21,7 @@ int _strlen(char *s)
  * *str_concat - concatenates two strings
  * @s1: string 1
  * @s2: string 2
+ * Return: concat of s1 and s2  str_concat
  * return: pointer
  */
 char *str_concat(char *s1, char *s2)
